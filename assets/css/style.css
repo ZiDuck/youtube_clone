@@ -162,7 +162,7 @@ body::-webkit-scrollbar {
 }
 
 .video-suggest__category::-webkit-scrollbar {
-    width: 4px;
+    height: 8px;
 }
 
 .grid__column--sidebar::-webkit-scrollbar-thumb, 
@@ -295,6 +295,10 @@ body::-webkit-scrollbar-thumb {
     margin-bottom: 40px;
     text-decoration: none;
     padding: 0 8px 0 8px;
+}
+
+.video-item {
+    margin-bottom: 24px;
 }
 
 .thumbnail {
@@ -556,6 +560,7 @@ body::-webkit-scrollbar-thumb {
     white-space: nowrap;
     overflow-x: scroll;
     margin-top: 18px;
+    padding-bottom: 4px;
 }
 
 .video-suggest__list-items {

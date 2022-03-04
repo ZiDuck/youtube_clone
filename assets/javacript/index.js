@@ -59,7 +59,7 @@ const makeVideoCard = (video_data) => {
                 <div class="thumbnail__time-video">
                     <span>9:46</span>
                 </div>
-                <a href="./../../../exercise_1/detail.html" class="video-item-zoom" data-id="${video_data.id}" style="text-decoration: none">
+                <a href="./../../detail.html" class="video-item-zoom" data-id="${video_data.id}" style="text-decoration: none">
                     <div class="thumbnail">
                         <div class="thumbnail__image">
                             <img src="${video_data.snippet.thumbnails.high.url}">
